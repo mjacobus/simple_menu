@@ -34,6 +34,6 @@ renders
   <% simple_menu('sidebar').active = :all %>
   
   <%= raw simple_menu('sidebar').add({
-    :all => ["All", "/products/most-viewed"],
+    :all => ["All", "/products"],
     :most_viewed => ["Most Viewed", "/products/most-viewed"],
   }) %>
