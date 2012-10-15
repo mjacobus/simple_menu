@@ -1,3 +1,39 @@
 = SimpleMenu
 
 This project rocks and uses MIT-LICENSE.
+
+== Instalation
+Add this to your gem file
+  gem "simple_menu", :git => "git@github.com:mjacobus/simple_menu.git"
+  
+Run bundle install
+
+= Usage
+
+== Layout (or even view)
+  <%= raw simple_menu.add({
+    :products => ["Products", "/products"],
+    :services => ["Services", "/services"],
+  }) %>
+  
+==  View
+  # app/views/products/show.html.erb
+  <% simple_menu.active = :products %>
+ 
+
+
+renders
+
+  <ul>
+    <li><a href="/products">Products</a></li>
+    <li><a href="/services">Services</a></li>
+  </ul>
+
+== Aditional Menus
+
+  <% simple_menu('sidebar').active = :all %>
+  
+  <%= raw simple_menu('sidebar').add({
+    :all => ["All", "/products/most-viewed"],
+    :most_viewed => ["Most Viewed", "/products/most-viewed"],
+  }) %>
