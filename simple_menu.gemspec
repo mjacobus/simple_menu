@@ -6,7 +6,7 @@ require "simple_menu/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "Simple Menu"
-  s.version     = SimpleMenu::VERSION
+  s.version     = '0.0.1'
   s.authors     = ["Marcelo Jacobus"]
   s.email       = ["marcelo.jacobus@gmail.com"]
   s.homepage    = "http://github.com/mjacobus/simple_menu"
