@@ -7,11 +7,11 @@ require "simple_menu/version"
 Gem::Specification.new do |s|
   s.name        = "simple_menu"
   s.version     = SimpleMenu::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleMenu."
-  s.description = "TODO: Description of SimpleMenu."
+  s.authors     = ["Marcelo Jacobus"]
+  s.email       = ["marcelo.jacobus@gmail.com"]
+  s.homepage    = "https://github.com/mjacobus/simple_menu"
+  s.summary     = "A menu helper"
+  s.description = "A menu helper"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
