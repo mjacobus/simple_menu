@@ -9,6 +9,6 @@ module SimpleMenu
 end
 
 #ActionView::Base.send :include, SimpleMenu
-Dispatcher.to_prepare do
+ActionController::Dispatcher.to_prepare do
   ApplicationController.send(:include, SimpleMenu) unless ApplicationController.include?(SimpleMenu)
 end
