@@ -2,14 +2,14 @@ class SimpleMenu::Helper
   
   # can be initialized with the items passed through params
   def initialize(params = {})
-    @items = ActiveSupport::OrderedHash.new
+    clear
     params.each do |key, options|
       add(key, options[0], options[1], options[2])
     end
   end
   
   def clear
-    @items.clear
+    @items = ActiveSupport::OrderedHash.new
     self
   end
   
