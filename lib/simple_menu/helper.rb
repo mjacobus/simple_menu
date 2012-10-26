@@ -8,6 +8,10 @@ class SimpleMenu::Helper
     end
   end
   
+  def clear
+    @items.clear
+    self
+  end
   
   def add(key, label = nil, url = nil, params = {})
     if key.kind_of? Hash
