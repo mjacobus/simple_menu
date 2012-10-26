@@ -8,5 +8,4 @@ module SimpleMenu
   end
 end
 
-#ActionView::Base.send :include, SimpleMenu
-ActionController::Base.send(:include,SimpleMenu)
+ActionView::Base.send :include, SimpleMenu
