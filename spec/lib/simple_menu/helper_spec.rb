@@ -8,7 +8,7 @@ describe SimpleMenu::Helper, '#initialize' do
         :second => ["Label 2", "#url2", {}]
       })
     end
-    
+
     its(:items) do
       should eq({
         :first => ["Label 1", "#url", {}],
@@ -26,7 +26,7 @@ describe SimpleMenu::Helper, '#add' do
         :second => ["Label 2", "#url2"]
       }).add(:third, "Label 3", "#url3")
     end
-    
+
     its(:items) do
       should eq({
         :first => ["Label 1", "#url", {}],
@@ -45,11 +45,11 @@ describe SimpleMenu::Helper, '#to_s' do
         :second => ["Label 2", "#url2"],
         :third =>["Label 3", "#url3"]
       })
-      
+
       menu.active=(:second)
       menu
     end
-    
+
     it "should render menu" do
       html = [
       '<ul>',
