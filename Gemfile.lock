@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    very_simple_meny (0.0.1)
+    very_simple_menu (0.0.1)
       rails
 
 GEM
@@ -104,4 +104,4 @@ DEPENDENCIES
   jquery-rails
   rspec-rails
   simplecov
-  very_simple_meny!
+  very_simple_menu!
