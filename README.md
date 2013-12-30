@@ -2,18 +2,18 @@
 
 A simple menu builder
 
-[![Build Status](https://travis-ci.org/mjacobus/simple_menu.png?branch=master)](https://travis-ci.org/mjacobus/simple_menu)
-[![Coverage Status](https://coveralls.io/repos/mjacobus/simple_menu/badge.png)](https://coveralls.io/r/mjacobus/simple_menu)
-[![Code Climate](https://codeclimate.com/github/mjacobus/simple_menu.png)](https://codeclimate.com/github/mjacobus/simple_menu)
-[![Dependency Status](https://gemnasium.com/mjacobus/simple_menu.png)](https://gemnasium.com/mjacobus/simple_menu)
-[![Gem Version](https://badge.fury.io/rb/simple_menu.png)](http://badge.fury.io/rb/simple_menu)
+[![Build Status](https://travis-ci.org/mjacobus/very_simple_menu.png?branch=master)](https://travis-ci.org/mjacobus/very_simple_menu)
+[![Coverage Status](https://coveralls.io/repos/mjacobus/very_simple_menu/badge.png)](https://coveralls.io/r/mjacobus/very_simple_menu)
+[![Code Climate](https://codeclimate.com/github/mjacobus/very_simple_menu.png)](https://codeclimate.com/github/mjacobus/very_simple_menu)
+[![Dependency Status](https://gemnasium.com/mjacobus/very_simple_menu.png)](https://gemnasium.com/mjacobus/very_simple_menu)
+[![Gem Version](https://badge.fury.io/rb/very_simple_menu.png)](http://badge.fury.io/rb/very_simple_menu)
 
 ## Instalation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'simple_menu'
+gem 'very_simple_menu'
 ```
 
 And then execute:
